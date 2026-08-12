@@ -9,6 +9,19 @@ body {
   background-color: white;
 }
 
+header {
+background-color: #fdcae1;
+}
+#logos {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: space-between;
+  }
+  #cinema img {
+    width: 150px;
+    }
+
 nav {
   display: flex;
   flex-wrap: wrap;
@@ -44,3 +57,5 @@ h1 {
   font-weight: bold;
   font-size: 1.5rem;
 }
+
+
