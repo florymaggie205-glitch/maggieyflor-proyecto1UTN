@@ -10,16 +10,18 @@ body {
 }
 
 header {
-background-color: #fdcae1;
+background-color: #c594aa;
 }
+
 #logos {
   display: flex;
   flex-direction: row;
   align-items: flex-end;
   justify-content: space-between;
   }
+
   #cinema img {
-    width: 150px;
+    width: 70px;
     }
 
 nav {
