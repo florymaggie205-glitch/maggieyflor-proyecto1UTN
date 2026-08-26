@@ -6,7 +6,7 @@ body {
   margin: 0;
   font-family: system-ui, sans-serif;
   color: black;
-  background-color: #005187;
+  background-color: #f7eef2;
 }
 
 header {
@@ -58,12 +58,23 @@ main {
 h1 {
   font-weight: bold;
   font-size: 1.5rem;
+  text-decoration: underline 4px;
+  color: #171a4a;
+  text-shadow: 3px 3px 5px #c594aa;
+  
 }
 
-img{
+.img-lumiere {
+  width: 250px;
+  float: right;
+  margin: 7px;
 
 }
 
+h2 {
+  text-decoration: underline 4px;
+  text-shadow: 3px 3px 5px #c594aa;
+}
 
 
 
