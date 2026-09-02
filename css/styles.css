@@ -70,13 +70,28 @@ h1 {
   margin: 7px;
 
 }
-
+h1{
+  text-align: center;
+}s
 h2 {
   text-decoration: underline 4px;
   text-shadow: 3px 3px 5px #c594aa;
 }
 
+.img-AdvengersEndgame{
+  width: 150px;
+  float: left;
+  margin: 10px;
+  
+}
 
+.img-Inside_Out{
+  width: 150px;
+  float: left;
+  margin: 10px;
+}
+
+ 
 
 /*comienzo de footer*/
 
