@@ -1,52 +1,107 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <title>Actores y actrices</title>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width" />
-    <link rel="stylesheet" href="css/styles.css" />
-    <script type="module" src="script.js"></script>
-  </head>
-  <body>
-    <header>
-      <div id="logos"></div>
-      <div id="cinema">
-      <img src="https://img.magnific.com/vector-premium/logotipo-camara-cine_349618-49477.jpg?semt=ais_test_b&w=740&q=80" alt="logo cinema">
-      </div>
-    </header>
-    <nav>
-      <a href="/index.html">La historia del cine</a>
-      <a href="/películas y series.html" >Películas y series más populares</a>
-      <a href="/actores y actrices.html">actores y actrices</a>
-      <a href="/premios del cine.html">Premios del cine</a>
-      <a href="/tu opinión.html"class="activo">Tu opinión</a>
-     
+
+<head>
+  <title>Actores y actrices</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width" />
+  <link rel="stylesheet" href="css/styles.css" />
+  <script type="module" src="script.js"></script>
+</head>
+
+<body>
+  <header>
+    <div id="logos"></div>
+    <div id="cinema">
+      <img
+        src="https://img.magnific.com/vector-premium/logotipo-camara-cine_349618-49477.jpg?semt=ais_test_b&w=740&q=80"
+        alt="logo cinema">
+    </div>
+  </header>
+  <nav>
+    <a href="/index.html">La historia del cine</a>
+    <a href="/películas y series.html">Películas y series más populares</a>
+    <a href="/actores y actrices.html">actores y actrices</a>
+    <a href="/premios del cine.html">Premios del cine</a>
+    <a href="/tu opinión.html" class="activo">Tu opinión</a>
 
 
-    </nav>
-    <main>
-      <h1>Próximos estrenos</h1>
-    </main>
-    <footer>
-      <div id="colegio">
-        <h3>Colegio:</h3>
-        <p>
-          <a href="https://campus.stmary.edu.ar/" target="_blank">
-            Mary of the Hills</a
-          >
-        </p>
-        <p>Avenida parque, Zelaya, Pilar</p>
-      </div>
 
-      <div id="alumno">
-        <h3>Alumnas:</h3>
-        <p> <a href="mailto:alu.prattom@stmary.edu.ar">Magdalena Pratto </a></p>
-        <p> <a href="mailto:alu.ponisiobaof@stmary.edu.ar">Florencia Ponisio </a></p>
-      </div>
-      <div id="sociales">
-        <h3> Curso:</h3>
-        <p>2do "s"</p>
-      </div>
-    </footer>
-  </body>
+  </nav>
+  <main>
+    <h1>Encuesta sobre el mundo del cine</h1>
+    <p>Queremos conocer tu opinión sobre nuestra página y sobre el mundo del cine.</p>
+    <form>
+      <label>¿Cuál es tu nombre?</label>
+      <br> <input type="text"><br>
+      <br>
+      <label>¿Te gustó nuestra página?</label> <br>
+      <input type="radio" name="gusto"> Sí, mucho <input type="radio" name="gusto"> Más o menos <input type="radio"
+        name="gusto"> No
+
+      <br><br> <label>¿Qué parte de la página te gustó más?</label>
+
+      <br> <select>
+        <option>Historia del cine</option>
+
+        <option>Premios del cine</option>
+
+        <option>Actores y actrices</option>
+
+        <option>Películas y series más populares</option>
+        
+        <option>La historia del cine</option>
+
+      </select> <br> <br> <label>¿Cuál es tu género de películas favorito?</label>
+      <br> <input type="checkbox"> Acción <input type="checkbox">
+      Comedia <input type="checkbox">
+      Terror <input type="checkbox">
+      Drama <input type="checkbox"> Ciencia ficción
+      <br><br> <label>¿Cuál es tu película favorita?</label>
+      <br> <input type="text"> <br><br>
+      <label>¿Quién creés que será el próximo actor en ganar un Oscar?</label>
+      <br> <input type="text"> <br><br> <label>¿Quién creés que será la próxima actriz en ganar un Oscar?</label> <br>
+      <input type="text"> <br><br> <label>¿Qué película pensás que podría ganar el próximo Oscar a Mejor
+        Película?</label> <br> <input type="text"> <br><br> <label>¿Cuál es tu actor favorito?</label> <br> <input
+        type="text"> <br><br> <label>¿Cuál es tu actriz favorita?</label> <br> <input type="text"> <br><br> <label>¿Qué
+        premio del cine te parece más importante?</label> <br> <select>
+        <option>Oscar</option>
+        <option>Globos de Oro</option>
+        <option>BAFTA</option>
+        <option>Festival de Cannes</option>
+      </select> <br><br> <label>¿Cuánto te gusta el cine?</label> <br> <input type="radio" name="cine"> Mucho <input
+        type="radio" name="cine"> Bastante <input type="radio" name="cine"> Poco <br><br> <label>¿Qué película
+        recomendarías para ver?</label> <br> <input type="text"> <br><br> <label>¿Qué cambiarías o agregarías a nuestra
+        página?</label> <br> <textarea></textarea> <br><br> <label>¿Recomendarías nuestra página a otras
+        personas?</label> <br> <input type="radio" name="recomendar"> Sí <input type="radio" name="recomendar"> No
+      <br><br> <button type="submit">Enviar opinión</button>
+    </form>
+
+
+    </div>
+    </section>
+
+  </main>
+  <footer>
+    <div id="colegio">
+      <h3>Colegio:</h3>
+      <p>
+        <a href="https://campus.stmary.edu.ar/" target="_blank">
+          Mary of the Hills</a>
+      </p>
+      <p>Avenida parque, Zelaya, Pilar</p>
+    </div>
+
+    <div id="alumno">
+      <h3>Alumnas:</h3>
+      <p> <a href="mailto:alu.prattom@stmary.edu.ar">Magdalena Pratto </a></p>
+      <p> <a href="mailto:alu.ponisiobaof@stmary.edu.ar">Florencia Ponisio </a></p>
+    </div>
+    <div id="sociales">
+      <h3> Curso:</h3>
+      <p>2do "s"</p>
+    </div>
+  </footer>
+</body>
+
 </html>
