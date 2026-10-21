@@ -57,11 +57,10 @@ main {
 
 h1 {
   font-weight: bold;
-  font-size: 2.5rem;
+  font-size: 2.0rem;
   text-decoration: underline 4px;
   color: #171a4a;
   text-shadow: 3px 3px 5px #c594aa;
-
 }
 
 .negrita {
@@ -72,8 +71,10 @@ h1 {
   width: 250px;
   float: right;
   margin: 7px;
-
+  border: 3px solid #D4AF37;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
 }
+
 
 h1 {
   text-align: center;
@@ -83,6 +84,8 @@ h2 {
   text-decoration: underline 4px;
   text-shadow: 3px 3px 5px #c594aa;
 }
+
+
 
 
 .tarjeta {
@@ -144,7 +147,7 @@ h2 {
 
 .destacado {
   grid-row: span 2;
-  background-color: #eeeeee;
+  background-color: #fbf7f7;
   padding: 15px;
   border-radius: 15px;
 }
@@ -205,28 +208,11 @@ body {
 }
 
 body {
-  background-color: #f8f3f7;
-  font-family: Arial, sans-serif;
-  color: #444444;
-}
-
-css body {
   background-color: #f7eef5;
   font-family: Arial, sans-serif;
   margin: 0;
 }
 
-body {
-  background-color: #f7eef5;
-  font-family: Arial, sans-serif;
-  margin: 0;
-}
-
-body {
-  background-color: #f8f3f7;
-  font-family: Arial, sans-serif;
-  color: #444444;
-}
 
 .formulario {
   width: 650px;
@@ -238,12 +224,6 @@ body {
   box-shadow: 0 5px 15px #d8cbd4;
 }
 
-h1 {
-  text-align: center;
-  color: #a85d85;
-  font-size: 32px;
-  margin-bottom: 10px;
-}
 
 .intro {
   text-align: center;
